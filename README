@@ -1,0 +1,35 @@
+# Instructions
+
+## Create a Data directory
+
+Run the following command to create a data directory:
+
+```bash
+mkdir -p data
+```
+
+## Download the File
+
+Use curl to download an extract of the first Harry Potter novel into the data directory.
+
+```bash
+curl -o data/harry_potter.pdf https://docenti.unimc.it/antonella.pascali/teaching/2018/19055/files/ultima-lezione/harry-potter-and-the-philosophers-stone
+```
+
+## Install dependencies
+
+Make sure you have llama-index installed
+
+```bash
+pip install llama-index
+```
+
+## Run the Script
+
+Execute the Python script:
+
+```bash
+python rag-examples.py
+```
+
+Feel free to test the program with different queries.
